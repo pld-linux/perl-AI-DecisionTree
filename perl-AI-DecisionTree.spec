@@ -3,8 +3,8 @@
 %bcond_without	tests	# do not perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	AI
-%define	pnam	DecisionTree
+%define		pdir	AI
+%define		pnam	DecisionTree
 Summary:	AI::DecisionTree - automatically learns decision trees
 Summary(pl):	AI::DecisionTree - automatyczne uczenie drzew decyzyjnych
 Name:		perl-AI-DecisionTree
@@ -21,9 +21,9 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
 The "AI::DecisionTree" module automatically creates so-called "decision
-trees" to explain a set of training data.  A decision tree is a kind of
+trees" to explain a set of training data. A decision tree is a kind of
 categorizer that use a flowchart-like process for categorizing new
-instances.  For instance, a learned decision tree might look like that
+instances. For instance, a learned decision tree might look like that
 one in documentation, which classifies for the concept "play tennis".
 
 %description -l pl
