@@ -14,7 +14,7 @@ License:	unknown
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	eaed56886a22506b8ed5f6dab88e7060
-BuildRequires:	perl-devel >= 5.6
+BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 %{?with_tests:BuildRequires:	perl-GraphViz}
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
