@@ -8,7 +8,7 @@
 Summary:	AI::DecisionTree -- Automatically Learns Decision Trees
 Summary(pl):	AI::DecisionTree -- Automatyczne uczenie drzew decyzyjnych
 Name:		perl-%{pdir}-%{pnam}
-Version:	0.04
+Version:	0.05
 Release:	1
 License:	?
 Group:		Development/Languages/Perl
@@ -57,8 +57,6 @@ rm -rf $RPM_BUILD_ROOT
 %{perl_sitearch}/%{pdir}/*.pm
 %{perl_sitearch}/%{pdir}/%{pnam}
 %dir %{perl_sitearch}/auto/%{pdir}/%{pnam}
-%attr(755,root,root) %{perl_sitearch}/auto/%{pdir}/%{pnam}/*.so
-%{perl_sitearch}/auto/%{pdir}/%{pnam}/*.bs
 %dir %{perl_sitearch}/auto/%{pdir}/%{pnam}/Instance
 %attr(755,root,root) %{perl_sitearch}/auto/%{pdir}/%{pnam}/Instance/*.so
 %{perl_sitearch}/auto/%{pdir}/%{pnam}/Instance/*.bs
