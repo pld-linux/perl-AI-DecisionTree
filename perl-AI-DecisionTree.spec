@@ -7,7 +7,7 @@
 %define	pnam	DecisionTree
 Summary:	AI::DecisionTree - automatically learns decision trees
 Summary(pl):	AI::DecisionTree - automatyczne uczenie drzew decyzyjnych
-Name:		perl-%{pdir}-%{pnam}
+Name:		perl-AI-DecisionTree
 Version:	0.08
 Release:	1
 License:	unknown
