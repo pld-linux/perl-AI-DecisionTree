@@ -5,8 +5,8 @@
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	AI
 %define	pnam	DecisionTree
-Summary:	AI::DecisionTree -- Automatically Learns Decision Trees
-Summary(pl):	AI::DecisionTree -- Automatyczne uczenie drzew decyzyjnych
+Summary:	AI::DecisionTree - automatically learns decision trees
+Summary(pl):	AI::DecisionTree - automatyczne uczenie drzew decyzyjnych
 Name:		perl-%{pdir}-%{pnam}
 Version:	0.08
 Release:	1
