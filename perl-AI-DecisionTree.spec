@@ -8,12 +8,12 @@
 Summary:	AI::DecisionTree -- Automatically Learns Decision Trees
 Summary(pl):	AI::DecisionTree -- Automatyczne uczenie drzew decyzyjnych
 Name:		perl-%{pdir}-%{pnam}
-Version:	0.07
+Version:	0.08
 Release:	1
 License:	?
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	019383de1f566235af6fe6e119d232e4
+# Source0-md5:	eaed56886a22506b8ed5f6dab88e7060
 BuildRequires:	perl-devel >= 5.6
 BuildRequires:	rpm-perlprov >= 4.1-13
 %if %{?_without_tests:0}%{!?_without_tests:1}
