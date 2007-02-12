@@ -6,7 +6,7 @@
 %define		pdir	AI
 %define		pnam	DecisionTree
 Summary:	AI::DecisionTree - automatically learns decision trees
-Summary(pl):	AI::DecisionTree - automatyczne uczenie drzew decyzyjnych
+Summary(pl.UTF-8):   AI::DecisionTree - automatyczne uczenie drzew decyzyjnych
 Name:		perl-AI-DecisionTree
 Version:	0.08
 Release:	1
@@ -27,13 +27,13 @@ categorizing new instances. For instance, a learned decision tree
 might look like that one in documentation, which classifies for the
 concept "play tennis".
 
-%description -l pl
-Modu³ AI::DecisionTree automatycznie tworzy tak zwane "drzewa
-decyzyjne" do obja¶niania zbiorów danych ucz±cych. Drzewo decyzyjne to
-rodzaj klasyfikatora u¿ywaj±cego procesu podobnego do przep³ywu do
-klasyfikacji nowych przypadków. Na przyk³ad, nauczone drzewo decyzyjne
-mo¿e wygl±daæ jak to umieszczone w dokumentacji, klasyfikuj±ce dla
-pojêcia "gry w tenisa".
+%description -l pl.UTF-8
+ModuÅ‚ AI::DecisionTree automatycznie tworzy tak zwane "drzewa
+decyzyjne" do objaÅ›niania zbiorÃ³w danych uczÄ…cych. Drzewo decyzyjne to
+rodzaj klasyfikatora uÅ¼ywajÄ…cego procesu podobnego do przepÅ‚ywu do
+klasyfikacji nowych przypadkÃ³w. Na przykÅ‚ad, nauczone drzewo decyzyjne
+moÅ¼e wyglÄ…daÄ‡ jak to umieszczone w dokumentacji, klasyfikujÄ…ce dla
+pojÄ™cia "gry w tenisa".
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
