@@ -61,5 +61,4 @@ rm -rf $RPM_BUILD_ROOT
 %dir %{perl_vendorarch}/auto/%{pdir}/%{pnam}
 %dir %{perl_vendorarch}/auto/%{pdir}/%{pnam}/Instance
 %attr(755,root,root) %{perl_vendorarch}/auto/%{pdir}/%{pnam}/Instance/*.so
-%{perl_vendorarch}/auto/%{pdir}/%{pnam}/Instance/*.bs
 %{_mandir}/man3/*
