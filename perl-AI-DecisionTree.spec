@@ -1,10 +1,10 @@
 #
 # Conditional build:
 %bcond_without	tests	# do not perform "make test"
-#
-%include	/usr/lib/rpm/macros.perl
+
 %define		pdir	AI
 %define		pnam	DecisionTree
+%include	/usr/lib/rpm/macros.perl
 Summary:	AI::DecisionTree - automatically learns decision trees
 Summary(pl.UTF-8):	AI::DecisionTree - automatyczne uczenie drzew decyzyjnych
 Name:		perl-AI-DecisionTree
@@ -14,9 +14,10 @@ License:	unknown
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	79ee9671099f498d52571cb91c06ec87
+URL:		http://search.cpan.org/dist/AI-DecisionTree/
+%{?with_tests:BuildRequires:	perl-GraphViz}
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
-%{?with_tests:BuildRequires:	perl-GraphViz}
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
